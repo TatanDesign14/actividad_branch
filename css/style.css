@@ -1,0 +1,16 @@
+.bg-sena1{
+    background-color: #2C3D4F!important;
+    color: #ffff;
+}
+.navbar-brand {
+    color: #FFFFFF;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+nav a:hover{
+    color: lightslategray!important;
+}
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
