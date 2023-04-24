@@ -13,7 +13,9 @@ nav a:hover {
   color: lightslategray !important;
 }
 
-body {}
+body {
+
+}
 
 .img {
   width: 250px;
@@ -62,6 +64,87 @@ body {}
   color: #fff;
 }
 
+/* About */
+.page-section {
+  padding: 6rem 0;
+}
+.bg-primary {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;
+}
+.text-white {
+  --bs-text-opacity: 1;
+  color: rgba(var(--bs-white-rgb), var(--bs-text-opacity)) !important;
+}
+.mb-0 {
+  margin-bottom: 0 !important;
+}
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+user agent stylesheet
+section {
+  display: block;
+}
+body {
+  margin: 0;
+  font-family: var(--bs-body-font-family);
+  font-size: var(--bs-body-font-size);
+  font-weight: var(--bs-body-font-weight);
+  line-height: var(--bs-body-line-height);
+  color: var(--bs-body-color);
+  text-align: var(--bs-body-text-align);
+  background-color: var(--bs-body-bg);
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.form-floating input.form-control,
+.form-floating textarea.form-control {
+  font-size: 1.5rem;
+  border-left: 0;
+  border-right: 0;
+  border-top: 0;
+  border-radius: 0;
+  border-width: 1px;
+}
+.form-floating input.form-control:focus,
+.form-floating textarea.form-control:focus {
+  box-shadow: none;
+}
+.form-floating label {
+  font-size: 1.5rem;
+  color: #6c757d;
+}
+
+.masthead {
+  padding-top: calc(6rem + 74px);
+  padding-bottom: 6rem;
+}
+.masthead .masthead-heading {
+  font-size: 2.75rem;
+  line-height: 2.75rem;
+}
+.masthead .masthead-subheading {
+  font-size: 1.25rem;
+}
+.masthead .masthead-avatar {
+  width: 15rem;
+}
+
+@media (min-width: 992px) {
+  .masthead {
+    padding-top: calc(6rem + 104px);
+    padding-bottom: 6rem;
+  }
+  .masthead .masthead-heading {
+    font-size: 4rem;
+    line-height: 3.5rem;
+  }
+  .masthead .masthead-subheading {
+    font-size: 1.5rem;
+  }
+}
 .portfolio .portfolio-item {
   cursor: pointer;
   position: relative;
@@ -100,3 +183,15 @@ body {}
     line-height: 2.5rem;
   }
 }
+
+.footer {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: #2c3e50;
+  color: #fff;
+}
+
+.copyright {
+  background-color: #1a252f;
+}
+
